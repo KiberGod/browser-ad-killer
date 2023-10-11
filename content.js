@@ -1,16 +1,22 @@
 // Прослуховувач реклами на YouTube
-function adDetection(tabId) {
-  console.log(`Tab ID: ${tabId}`);
-
+function adDetection() {
   chrome.runtime.sendMessage({ action: "getTimestamp" }, (response) => {
     console.log("timestamp: " + response.timestamp);
   });
+
+  if (document.querySelector('.ytp-ad-player-overlay')) {  // Зараз показують рекламу ?
+    console.log("Зараз показують рекламу")
+  } else {
+    console.log("Зараз не показують рекламу")
+    if (document.querySelector('.playing-mode')) {  // Відео грає?
+      console.log("Відео грає")
+    } else {
+      console.log("Відео на паузі")
+    }
+  }
 }
 
 // Встановлення слухача реклами
 setInterval(() => {
-  chrome.runtime.sendMessage({ action: "getCurrentTabId" }, (response) => {
-    const tabId = response.tabId;
-    adDetection(tabId);
-  });
+  adDetection();
 }, 3000);

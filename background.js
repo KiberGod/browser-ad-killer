@@ -15,8 +15,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 // Спрацьовуватиме кожет раз, як користувач оновить вкладинку у межах ютубу
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (tab.url.includes("watch") && changeInfo.status === "complete" && tab.url) {
-    console.log(`Замечено обновление вкладки`);
-    console.log(`User navigated to: ${tab.url}`);
+    console.log("Помічено оновлення вкладинки");
+    console.log(`Користувач перейшов на: ${tab.url}`);
 
     if (tab.url.includes("t=") && tab.url.slice(-1) === 's') {
       console.log(getTimestamp(tab.url));
