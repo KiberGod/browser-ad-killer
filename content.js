@@ -10,6 +10,7 @@ function adDetection() {
     console.log("Зараз не показують рекламу")
     if (document.querySelector('.playing-mode')) {  // Відео грає?
       console.log("Відео грає")
+      chrome.runtime.sendMessage({ action: "updateTimestamp", seconds: 3 });
     } else {
       console.log("Відео на паузі")
     }

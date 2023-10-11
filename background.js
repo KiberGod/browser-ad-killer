@@ -5,30 +5,71 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse({ tabId: currentTabId });
     return true;
   } else if (message.action === "getTimestamp") {
-    chrome.storage.local.get(["tabId"]).then((result) => {
-      sendResponse({ timestamp: result.tabId });
+    chrome.storage.local.get(["timestamps"]).then((result) => {
+      sendResponse({ timestamp: result.timestamps[sender.tab.id] });
+    });
+    return true;
+  } else if (message.action === "updateTimestamp") {
+    updateTimestamp(message.seconds, sender.tab.id).catch((error) => {
+      console.error("Error:", error);
     });
     return true;
   }
 });
 
-// Спрацьовуватиме кожет раз, як користувач оновить вкладинку у межах ютубу
+// Спрацьовуватиме кожен раз, як користувач оновить вкладинку у межах ютубу
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (tab.url.includes("watch") && changeInfo.status === "complete" && tab.url) {
     console.log("Помічено оновлення вкладинки");
     console.log(`Користувач перейшов на: ${tab.url}`);
 
-    if (tab.url.includes("t=") && tab.url.slice(-1) === 's') {
-      console.log(getTimestamp(tab.url));
-      chrome.storage.local.set({ tabId: getTimestamp(tab.url) }).then(() => {});
-    } else {
-      chrome.storage.local.set({ tabId: 0 }).then(() => {});
-    }
+    chrome.storage.local.get("timestamps", function(result) {
+      const timestamps = result.timestamps || {}; // Если объект timestamps еще не существует, создайте пустой объект
+
+      if (tab.url.includes("t=") && tab.url.slice(-1) === 's') {
+        timestamps[tabId] = getTimestampFromURL(tab.url);
+      } else {
+        timestamps[tabId] = 0;
+      }
+
+      // Сохраните обновленные временные метки в хранилище
+      chrome.storage.local.set({ timestamps }, function() {
+        if (chrome.runtime.lastError) {
+          console.error(chrome.runtime.lastError);
+        }
+      });
+    });
   }
 });
 
 // Отримання часової мітки з параметрів посилання
-function getTimestamp(url) {
+function getTimestampFromURL(url) {
   const urlSearchParams = new URLSearchParams(url.split('?')[1]);
-  return urlSearchParams.get("t").replace(/s$/, '');
+  const timestamp = parseInt(urlSearchParams.get("t").replace(/s$/, ''), 10);
+  if (!isNaN(timestamp)) {
+    return timestamp;
+  } else {
+    return 0;
+  }
+}
+
+// Оновлення часової мітки
+function updateTimestamp(seconds, tabId) {
+  return new Promise((resolve, reject) => {
+    chrome.storage.local.get({ timestamps: {} }, (result) => {
+      if (chrome.runtime.lastError) {
+        reject(chrome.runtime.lastError);
+      } else {
+        const { timestamps } = result;
+        timestamps[tabId] = (timestamps[tabId] || 0) + seconds;
+        chrome.storage.local.set({ timestamps }, () => {
+          if (chrome.runtime.lastError) {
+            reject(chrome.runtime.lastError);
+          } else {
+            resolve(timestamps[tabId]);
+          }
+        });
+      }
+    });
+  });
 }
