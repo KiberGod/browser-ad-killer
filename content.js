@@ -1,11 +1,16 @@
-// content.js
-function checkForAdOverlay() {
-    const adOverlay = document.querySelector('.ytp-flyout-cta-body');
-    if (adOverlay) {
-      location.reload();
-    }
-  }
-  
-  // Запустите функцию проверки с заданной периодичностью (например, каждые 3 секунды)
-  setInterval(checkForAdOverlay, 3000);
-  
+// Прослуховувач реклами на YouTube
+function adDetection(tabId) {
+  console.log(`Tab ID: ${tabId}`);
+
+  chrome.runtime.sendMessage({ action: "getTimestamp" }, (response) => {
+    console.log("timestamp: " + response.timestamp);
+  });
+}
+
+// Встановлення слухача реклами
+setInterval(() => {
+  chrome.runtime.sendMessage({ action: "getCurrentTabId" }, (response) => {
+    const tabId = response.tabId;
+    adDetection(tabId);
+  });
+}, 3000);
