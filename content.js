@@ -14,10 +14,15 @@ function adDetection() {
     chrome.runtime.sendMessage({ action: "getTimestamp" }, (response) => {
       console.log("timestamp: " + response.timestamp);
     });
-    
-  
+
     if (document.querySelector('.ytp-ad-player-overlay')) {  // Зараз показують рекламу ?
       console.log("Зараз показують рекламу")
+
+      chrome.runtime.sendMessage({ action: "getTimestamp" }, (response) => {
+        chrome.runtime.sendMessage({ action: "reloadTab", timestamp: response.timestamp });
+      });
+
+      
     } else {
       console.log("Зараз не показують рекламу")
       if (document.querySelector('.playing-mode')) {  // Відео грає?

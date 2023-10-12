@@ -1,13 +1,19 @@
 // Прослуховує виклики з content.js
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === "getCurrentTabId") {
-    const currentTabId = sender.tab.id;
-    sendResponse({ tabId: currentTabId });
-    return true;
-  } else if (message.action === "getTimestamp") {
-    chrome.storage.local.get(["timestamps"]).then((result) => {
+  if (message.action === "getTimestamp") {
+    chrome.storage.local.get(["timestamps"], (result) => {
       sendResponse({ timestamp: result.timestamps[sender.tab.id] });
     });
+    return true;
+  } else if (message.action === "reloadTab") {
+    console.log("Timestamp for Tab ID", sender.tab.id, "is", message.timestamp);
+    if (message.timestamp === 0) {
+      // Просте перезавантаження вкладинки
+      chrome.tabs.reload(sender.tab.id);
+    } else {
+      // Перезавантаження вкладинки з використанням часової мітки   
+      chrome.tabs.update(sender.tab.id, { url: updateYouTubeLink(sender.tab.url, message.timestamp) });
+    }
     return true;
   } else if (message.action === "updateTimestamp") {
     updateTimestamp(message.seconds, sender.tab.id).catch((error) => {
@@ -15,9 +21,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     });
     return true;
   } else if (message.action === "setTimestamp") {
-    setTimestamp(timeToSeconds(message.newTimestamp), sender.tab.id).catch((error) => {
-      console.error("Error:", error);
-    });
+    const seconds = timeToSeconds(message.newTimestamp);
+    if (seconds !== 0) {
+      setTimestamp(seconds, sender.tab.id).catch((error) => {
+        console.error("Error:", error);
+      });
+    }
     return true;
   }
 });
@@ -44,6 +53,7 @@ function updateTimestamp(seconds, tabId) {
           if (chrome.runtime.lastError) {
             reject(chrome.runtime.lastError);
           } else {
+            console.log(timestamps[tabId])
             resolve(timestamps[tabId]);
           }
         });
@@ -65,6 +75,7 @@ function setTimestamp(newTimestamp, tabId) {
           if (chrome.runtime.lastError) {
             reject(chrome.runtime.lastError);
           } else {
+            console.log(timestamps[tabId])
             resolve(timestamps[tabId]);
           }
         });
@@ -87,4 +98,17 @@ function timeToSeconds(timeString) {
 
   seconds += parseInt(timeArray[timeArray.length - 1]);
   return seconds;
+}
+
+// Побудова нового посилання на YouTube-відео з часовою міткою
+function updateYouTubeLink(link, timestamp) {
+  const url = new URL(link);
+  const tParam = url.searchParams.get("t");
+
+  if (tParam) {
+    url.searchParams.delete("t");
+  }
+
+  url.searchParams.set("t", timestamp);
+  return url.href;
 }
