@@ -14,6 +14,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       console.error("Error:", error);
     });
     return true;
+  } else if (message.action === "setTimestamp") {
+    setTimestamp(timeToSeconds(message.newTimestamp), sender.tab.id).catch((error) => {
+      console.error("Error:", error);
+    });
+    return true;
   }
 });
 
@@ -22,36 +27,9 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (tab.url.includes("watch") && changeInfo.status === "complete" && tab.url) {
     console.log("Помічено оновлення вкладинки");
     console.log(`Користувач перейшов на: ${tab.url}`);
-
-    chrome.storage.local.get("timestamps", function(result) {
-      const timestamps = result.timestamps || {}; // Если объект timestamps еще не существует, создайте пустой объект
-
-      if (tab.url.includes("t=") && tab.url.slice(-1) === 's') {
-        timestamps[tabId] = getTimestampFromURL(tab.url);
-      } else {
-        timestamps[tabId] = 0;
-      }
-
-      // Сохраните обновленные временные метки в хранилище
-      chrome.storage.local.set({ timestamps }, function() {
-        if (chrome.runtime.lastError) {
-          console.error(chrome.runtime.lastError);
-        }
-      });
-    });
+    chrome.tabs.sendMessage(tabId, { action: "updateTab" });
   }
 });
-
-// Отримання часової мітки з параметрів посилання
-function getTimestampFromURL(url) {
-  const urlSearchParams = new URLSearchParams(url.split('?')[1]);
-  const timestamp = parseInt(urlSearchParams.get("t").replace(/s$/, ''), 10);
-  if (!isNaN(timestamp)) {
-    return timestamp;
-  } else {
-    return 0;
-  }
-}
 
 // Оновлення часової мітки
 function updateTimestamp(seconds, tabId) {
@@ -72,4 +50,41 @@ function updateTimestamp(seconds, tabId) {
       }
     });
   });
+}
+
+// Заміна часової мітки
+function setTimestamp(newTimestamp, tabId) {
+  return new Promise((resolve, reject) => {
+    chrome.storage.local.get({ timestamps: {} }, (result) => {
+      if (chrome.runtime.lastError) {
+        reject(chrome.runtime.lastError);
+      } else {
+        const { timestamps } = result;
+        timestamps[tabId] = newTimestamp;
+        chrome.storage.local.set({ timestamps }, () => {
+          if (chrome.runtime.lastError) {
+            reject(chrome.runtime.lastError);
+          } else {
+            resolve(timestamps[tabId]);
+          }
+        });
+      }
+    });
+  });
+}
+
+// Конвертація числової мітки з рядкового типу у числовий (кількість секунд)
+function timeToSeconds(timeString) {
+  const timeArray = timeString.split(":");
+  let seconds = 0;
+  if (timeArray.length === 3) {
+    seconds += parseInt(timeArray[0]) * 3600;
+  }
+
+  if (timeArray.length >= 2) {
+    seconds += parseInt(timeArray[timeArray.length - 2]) * 60;
+  }
+
+  seconds += parseInt(timeArray[timeArray.length - 1]);
+  return seconds;
 }
