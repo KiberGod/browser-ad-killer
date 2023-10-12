@@ -36,6 +36,9 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (tab.url.includes("watch") && changeInfo.status === "complete" && tab.url) {
     console.log("Помічено оновлення вкладинки");
     console.log(`Користувач перейшов на: ${tab.url}`);
+    setTimestamp(0, tabId).catch((error) => {
+      console.error("Error:", error);
+    });
     chrome.tabs.sendMessage(tabId, { action: "updateTab" });
   }
 });
