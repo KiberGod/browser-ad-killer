@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Tab IDs",
-  "version": "1.0",
-  "description": "Extension to display tab IDs on YouTube.",
+  "name": "YouAd Killer",
+  "version": "1.7",
+  "description": "YouTube ad blocker.",
   "permissions": [
     "activeTab", 
     "tabs",
