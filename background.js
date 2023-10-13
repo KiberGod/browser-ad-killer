@@ -17,14 +17,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true;
   } else if (message.action === "updateTimestamp") {
     updateTimestamp(message.seconds, sender.tab.id).catch((error) => {
-      console.error("Error:", error);
+      //console.error("Error:", error);
     });
     return true;
   } else if (message.action === "setTimestamp") {
     const seconds = timeToSeconds(message.newTimestamp);
     if (seconds !== 0) {
       setTimestamp(seconds, sender.tab.id).catch((error) => {
-        console.error("Error:", error);
+        //console.error("Error:", error);
       });
     }
     return true;
@@ -34,10 +34,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 // Спрацьовуватиме кожен раз, як користувач оновить вкладинку у межах ютубу
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (tab.url.includes("watch") && changeInfo.status === "complete" && tab.url) {
-    console.log("Помічено оновлення вкладинки");
-    console.log(`Користувач перейшов на: ${tab.url}`);
+    //console.log("Помічено оновлення вкладинки");
+    //console.log(`Користувач перейшов на: ${tab.url}`);
     setTimestamp(0, tabId).catch((error) => {
-      console.error("Error:", error);
+      //console.error("Error:", error);
     });
     chrome.tabs.sendMessage(tabId, { action: "updateTab" });
   }
@@ -56,7 +56,7 @@ function updateTimestamp(seconds, tabId) {
           if (chrome.runtime.lastError) {
             reject(chrome.runtime.lastError);
           } else {
-            console.log(timestamps[tabId])
+            //console.log(timestamps[tabId])
             resolve(timestamps[tabId]);
           }
         });
@@ -78,7 +78,7 @@ function setTimestamp(newTimestamp, tabId) {
           if (chrome.runtime.lastError) {
             reject(chrome.runtime.lastError);
           } else {
-            console.log(timestamps[tabId])
+            //console.log(timestamps[tabId])
             resolve(timestamps[tabId]);
           }
         });
