@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Reference"
+    },
+    "card_title_2": {
+        "message": "First run"
+    },
+    "card_text_1": {
+        "message": "Automatically detects YouTube ads and skips them. The extension is not blocked by YouTube services. Enjoy :)"
+    },
+    "card_text_2": {
+        "message": "After installing and launching the extension, it is recommended to close all old tabs from YouTube and reopen them. You only need to do this once."
+    },
+    "card_text_3": {
+        "message": "Ad search and skip methods do not violate YouTube's policies."
+    }
+}
