@@ -12,11 +12,12 @@ YouAd Killer is a browser extension that automatically detects and blocks ads on
 It should be noted that the extension has both a number of advantages and a number of disadvantages. The advantages include:
 * conditionally instant ad skipping (see "How it works")
 * is not recognized by YouTube services as an AdBlock extension
-* works correctly only at video speed "1"
+* does not violate YouTube policy
 
 Disadvantages:
 * affects Internet traffic
 * cannot work properly at slow Internet speeds
+* works correctly only at video speed "1"
 
 <br>
 <h3>Installation and first launch</h3>
