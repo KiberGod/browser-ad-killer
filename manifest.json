@@ -4,7 +4,6 @@
   "version": "1.7",
   "description": "YouTube ad blocker.",
   "permissions": [
-    "activeTab", 
     "tabs",
     "storage"
   ],
