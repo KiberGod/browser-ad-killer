@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Ayuda"
+    },
+    "card_title_2": {
+        "message": "Primera ejecución"
+    },
+    "card_text_1": {
+        "message": "Detecta automáticamente los anuncios de YouTube y los omite. La extensión no está bloqueada por los servicios de YouTube. Disfruta :)"
+    },
+    "card_text_2": {
+        "message": "Después de instalar e iniciar la extensión, se recomienda cerrar todas las pestañas antiguas de YouTube y volver a abrirlas. Sólo es necesario hacerlo una vez."
+    },
+    "card_text_3": {
+        "message": "Los métodos de búsqueda y omisión de anuncios no infringen las políticas de YouTube."
+    }
+}

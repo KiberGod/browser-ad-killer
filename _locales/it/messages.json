@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Aiuto"
+    },
+    "card_title_2": {
+        "message": "Prima esecuzione"
+    },
+    "card_text_1": {
+        "message": "Rileva automaticamente gli annunci di YouTube e li salta. L'estensione non è bloccata dai servizi di YouTube. Buon divertimento :)"
+    },
+    "card_text_2": {
+        "message": "Dopo aver installato e avviato l'estensione, si consiglia di chiudere tutte le vecchie schede di YouTube e riaprirle. È necessario farlo solo una volta."
+    },
+    "card_text_3": {
+        "message": "I metodi di ricerca e salto degli annunci non violano le politiche di YouTube."
+    }
+}

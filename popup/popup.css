@@ -1,0 +1,48 @@
+body {
+    width: 240px;
+    text-align: center;
+    color: #fff;
+    background: #444654;
+}
+
+.title {
+    height: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 8px;
+    text-align: left;
+    background: #343541;
+    font-size: 12px;
+}
+
+.card-title {
+    margin-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}
+
+.card-gradient {
+    background: linear-gradient(to top right, #C80D3A, #97085B, #600282);   
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px; 
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; 
+}
+
+#popup-version {
+    position: absolute;
+    right: 7px;
+    text-decoration: underline;
+}

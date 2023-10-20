@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Ajuda"
+    },
+    "card_title_2": {
+        "message": "Primeira corrida"
+    },
+    "card_text_1": {
+        "message": "Detecta automaticamente anúncios do YouTube e salta-os. A extensão não é bloqueada pelos serviços do YouTube. Diverte-te :)"
+    },
+    "card_text_2": {
+        "message": "Depois de instalar e iniciar a extensão, recomenda-se que feche todos os separadores antigos do YouTube e os abra novamente. Só precisa de o fazer uma vez."
+    },
+    "card_text_3": {
+        "message": "Os métodos de pesquisa e salto de anúncios não violam as políticas do YouTube."
+    }
+}

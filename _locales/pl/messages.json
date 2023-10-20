@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Pomoc"
+    },
+    "card_title_2": {
+        "message": "Pierwsze uruchomienie"
+    },
+    "card_text_1": {
+        "message": "Automatycznie wykrywa reklamy YouTube i pomija je. Rozszerzenie nie jest blokowane przez usługi YouTube. Enjoy :)"
+    },
+    "card_text_2": {
+        "message": "Po zainstalowaniu i uruchomieniu rozszerzenia zaleca się zamknięcie wszystkich starych kart YouTube i ponowne ich otwarcie. Wystarczy zrobić to tylko raz."
+    },
+    "card_text_3": {
+        "message": "Metody wyszukiwania i pomijania reklam nie naruszają zasad YouTube."
+    }
+}

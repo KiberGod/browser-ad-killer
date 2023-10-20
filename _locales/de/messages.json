@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "Hilfe"
+    },
+    "card_title_2": {
+        "message": "Erster Lauf"
+    },
+    "card_text_1": {
+        "message": "Erkennt YouTube-Werbung automatisch und überspringt sie. Die Erweiterung wird nicht von YouTube-Diensten blockiert. Viel Spaß :)"
+    },
+    "card_text_2": {
+        "message": "Nach der Installation und dem Start der Erweiterung wird empfohlen, alle alten YouTube-Tabs zu schließen und sie erneut zu öffnen. Sie müssen dies nur einmal tun."
+    },
+    "card_text_3": {
+        "message": "Die Methoden zum Suchen und Überspringen von Anzeigen verstoßen nicht gegen die Richtlinien von YouTube."
+    }
+}
