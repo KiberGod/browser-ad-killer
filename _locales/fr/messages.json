@@ -1,17 +1,17 @@
 {
-    "card_title_1" : {
-        "message" : "Aide"
+    "card_title_1": {
+        "message": "certificat"
     },
-    "card_title_2" : {
-        "message" : "Première manche"
+    "card_title_2": {
+        "message": "Le premier lancement"
     },
-    "card_text_1" : {
-        "message" : "Détecte automatiquement les publicités YouTube et les ignore. L'extension n'est pas bloquée par les services de YouTube. Profitez-en :)"
+    "card_text_1": {
+        "message": "Détecte et détruit automatiquement YouTube.L'extension n'est pas bloquée par les services YouTube.Apprécier :)"
     },
-    "card_text_2" : {
-        "message" : "Après avoir installé et lancé l'extension, il est recommandé de fermer tous les anciens onglets YouTube et de les rouvrir. Vous ne devez le faire qu'une seule fois."
+    "card_text_2": {
+        "message": "Après avoir installé et lancé l'extension, il est recommandé de fermer tous les anciens onglets YouTube et de les ouvrir à nouveau.Ces actions ne doivent être effectuées qu'une seule fois."
     },
-    "card_text_3" : {
-        "message" : "Les méthodes de recherche et de saut de publicités n'enfreignent pas les règles de YouTube."
+    "card_text_3": {
+        "message": "Les méthodes de recherche publicitaire ne violent pas les politiques YouTube."
     }
 }

@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "Hilfe"
+        "message": "Zertifikat"
     },
     "card_title_2": {
-        "message": "Erster Lauf"
+        "message": "Der erste Start"
     },
     "card_text_1": {
-        "message": "Erkennt YouTube-Werbung automatisch und überspringt sie. Die Erweiterung wird nicht von YouTube-Diensten blockiert. Viel Spaß :)"
+        "message": "Erkennt und zerstört YouTube automatisch.Die Erweiterung wird nicht von YouTube -Diensten blockiert.Genießen :)"
     },
     "card_text_2": {
-        "message": "Nach der Installation und dem Start der Erweiterung wird empfohlen, alle alten YouTube-Tabs zu schließen und sie erneut zu öffnen. Sie müssen dies nur einmal tun."
+        "message": "Nach dem Installieren und Starten der Erweiterung wird empfohlen, alle alten YouTube -Registerkarten zu schließen und sie erneut zu öffnen.Diese Aktionen sollten nur einmal ausgeführt werden."
     },
     "card_text_3": {
-        "message": "Die Methoden zum Suchen und Überspringen von Anzeigen verstoßen nicht gegen die Richtlinien von YouTube."
+        "message": "Werbe -Suchmethoden verstoßen nicht die YouTube -Richtlinien."
     }
 }

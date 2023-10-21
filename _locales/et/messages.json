@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "sertifikaat"
+    },
+    "card_title_2": {
+        "message": "Esimene käivitamine"
+    },
+    "card_text_1": {
+        "message": "Automaatselt tuvastab ja hävitab YouTube.YouTube Services ei blokeeri pikendust.Nautida :)"
+    },
+    "card_text_2": {
+        "message": "Pärast laienduse installimist ja käivitamist on soovitatav sulgeda kõik vanad YouTube'i vahekaardid ja avada need uuesti.Neid toiminguid tuleks teha ainult üks kord."
+    },
+    "card_text_3": {
+        "message": "Reklaamiotsimismeetodid ei riku YouTube'i poliitikat."
+    }
+}

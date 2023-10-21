@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "osvědčení"
+    },
+    "card_title_2": {
+        "message": "První spuštění"
+    },
+    "card_text_1": {
+        "message": "Automaticky detekuje a ničí YouTube.Rozšíření není blokováno službami YouTube.Užívat si :)"
+    },
+    "card_text_2": {
+        "message": "Po instalaci a spuštění rozšíření se doporučuje zavřít všechny staré karty YouTube a znovu je otevřít.Tyto akce by měly být prováděny pouze jednou."
+    },
+    "card_text_3": {
+        "message": "Metody vyhledávání reklamy neporušují zásady YouTube."
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "potvrda"
+    },
+    "card_title_2": {
+        "message": "Prvo lansiranje"
+    },
+    "card_text_1": {
+        "message": "Automatski otkriva i uništava YouTube.YouTube usluge ne blokiraju proširenje.Uživati ​​:)"
+    },
+    "card_text_2": {
+        "message": "Nakon instaliranja i pokretanja proširenja, preporučuje se zatvoriti sve stare YouTube kartice i ponovo ih otvoriti.Te se radnje treba izvesti samo jednom."
+    },
+    "card_text_3": {
+        "message": "Metode pretraživanja oglašavanja ne krše YouTube pravila."
+    }
+}

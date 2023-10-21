@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "certifikat"
+    },
+    "card_title_2": {
+        "message": "Den första lanseringen"
+    },
+    "card_text_1": {
+        "message": "Upptäcker och förstör automatiskt YouTube.Tillägget är inte blockerat av YouTube -tjänster.Njut av :)"
+    },
+    "card_text_2": {
+        "message": "Efter att ha installerat och lanserat tillägget rekommenderas det att stänga alla gamla YouTube -flikar och öppna dem igen.Dessa åtgärder bör endast utföras en gång."
+    },
+    "card_text_3": {
+        "message": "Reklamsökningsmetoder bryter inte mot YouTube -policyer."
+    }
+}

@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "Aiuto"
+        "message": "certificato"
     },
     "card_title_2": {
-        "message": "Prima esecuzione"
+        "message": "Il primo lancio"
     },
     "card_text_1": {
-        "message": "Rileva automaticamente gli annunci di YouTube e li salta. L'estensione non è bloccata dai servizi di YouTube. Buon divertimento :)"
+        "message": "Rileva e distrugge automaticamente YouTube.L'estensione non è bloccata dai servizi YouTube.Godere :)"
     },
     "card_text_2": {
-        "message": "Dopo aver installato e avviato l'estensione, si consiglia di chiudere tutte le vecchie schede di YouTube e riaprirle. È necessario farlo solo una volta."
+        "message": "Dopo aver installato e lanciato l'estensione, si consiglia di chiudere tutte le vecchie schede di YouTube e aprirle di nuovo.Queste azioni dovrebbero essere eseguite solo una volta."
     },
     "card_text_3": {
-        "message": "I metodi di ricerca e salto degli annunci non violano le politiche di YouTube."
+        "message": "I metodi di ricerca pubblicitaria non violano le politiche di YouTube."
     }
 }

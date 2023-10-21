@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "Ajuda"
+        "message": "certificado"
     },
     "card_title_2": {
-        "message": "Primeira corrida"
+        "message": "O primeiro lançamento"
     },
     "card_text_1": {
-        "message": "Detecta automaticamente anúncios do YouTube e salta-os. A extensão não é bloqueada pelos serviços do YouTube. Diverte-te :)"
+        "message": "Detecta e destrói automaticamente o YouTube.A extensão não está bloqueada pelos serviços do YouTube.Aproveitar :)"
     },
     "card_text_2": {
-        "message": "Depois de instalar e iniciar a extensão, recomenda-se que feche todos os separadores antigos do YouTube e os abra novamente. Só precisa de o fazer uma vez."
+        "message": "Depois de instalar e iniciar a extensão, é recomendável fechar todas as guias antigas do YouTube e abri -las novamente.Essas ações devem ser executadas apenas uma vez."
     },
     "card_text_3": {
-        "message": "Os métodos de pesquisa e salto de anúncios não violam as políticas do YouTube."
+        "message": "Os métodos de pesquisa de publicidade não violam as políticas do YouTube."
     }
 }

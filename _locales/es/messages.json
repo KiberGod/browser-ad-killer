@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "Ayuda"
+        "message": "certificado"
     },
     "card_title_2": {
-        "message": "Primera ejecución"
+        "message": "El primer lanzamiento"
     },
     "card_text_1": {
-        "message": "Detecta automáticamente los anuncios de YouTube y los omite. La extensión no está bloqueada por los servicios de YouTube. Disfruta :)"
+        "message": "Detecta y destruye automáticamente YouTube.La extensión no está bloqueada por YouTube Services.Disfrutar :)"
     },
     "card_text_2": {
-        "message": "Después de instalar e iniciar la extensión, se recomienda cerrar todas las pestañas antiguas de YouTube y volver a abrirlas. Sólo es necesario hacerlo una vez."
+        "message": "Después de instalar y iniciar la extensión, se recomienda cerrar todas las pestañas de YouTube antiguas y abrirlas nuevamente.Estas acciones deben realizarse solo una vez."
     },
     "card_text_3": {
-        "message": "Los métodos de búsqueda y omisión de anuncios no infringen las políticas de YouTube."
+        "message": "Los métodos de búsqueda publicitaria no violan las políticas de YouTube."
     }
 }

@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "certificaat"
+    },
+    "card_title_2": {
+        "message": "De eerste lancering"
+    },
+    "card_text_1": {
+        "message": "Automatisch detecteert en vernietigt YouTube.De extensie wordt niet geblokkeerd door YouTube -services.Genieten :)"
+    },
+    "card_text_2": {
+        "message": "Na het installeren en starten van de extensie wordt het aanbevolen om alle oude YouTube -tabbladen te sluiten en ze opnieuw te openen.Deze acties moeten slechts één keer worden uitgevoerd."
+    },
+    "card_text_3": {
+        "message": "Het zoeken naar advertentie -zoekmethoden schendt het YouTube -beleid niet."
+    }
+}

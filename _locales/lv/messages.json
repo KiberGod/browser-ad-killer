@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "apliecība"
+    },
+    "card_title_2": {
+        "message": "Pirmā palaišana"
+    },
+    "card_text_1": {
+        "message": "Automātiski nosaka un iznīcina YouTube.YouTube pakalpojumi nav bloķējuši paplašinājumu.Izbaudi :)"
+    },
+    "card_text_2": {
+        "message": "Pēc paplašinājuma instalēšanas un palaišanas ieteicams aizvērt visas vecās YouTube cilnes un atvērt tās vēlreiz.Šīs darbības jāveic tikai vienu reizi."
+    },
+    "card_text_3": {
+        "message": "Reklāmas meklēšanas metodes nepārkāpj YouTube politikas."
+    }
+}

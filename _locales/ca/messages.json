@@ -1,0 +1,17 @@
+{
+    "card_title_1": {
+        "message": "certificat"
+    },
+    "card_title_2": {
+        "message": "El primer llançament"
+    },
+    "card_text_1": {
+        "message": "Detecta i destrueix automàticament YouTube.L'extensió no està bloquejada pels serveis de YouTube.Gaudeix :)"
+    },
+    "card_text_2": {
+        "message": "Després d’instal·lar i llançar l’extensió, es recomana tancar totes les pestanyes de YouTube antigues i obrir -les de nou.Aquestes accions s’han de realitzar una sola vegada."
+    },
+    "card_text_3": {
+        "message": "Els mètodes de cerca publicitaris no violen les polítiques de YouTube."
+    }
+}
