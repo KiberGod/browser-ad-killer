@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "Sertipiko"
+        "message": "Sanggunian"
     },
     "card_title_2": {
-        "message": "Ang unang paglulunsad"
+        "message": "Unang simula"
     },
     "card_text_1": {
-        "message": "Awtomatikong nakita at sinisira ang YouTube.Ang extension ay hindi naharang ng mga serbisyo sa YouTube.Masiyahan :)"
+        "message": "Awtomatikong nakikita at hinaharangan ang mga ad sa YouTube. Ang extension ay hindi hinarangan ng mga serbisyo ng YouTube. Enjoy :)"
     },
     "card_text_2": {
-        "message": "Matapos i -install at ilunsad ang extension, inirerekomenda na isara ang lahat ng mga lumang tab ng YouTube at buksan muli ang mga ito.Ang mga pagkilos na ito ay dapat isagawa nang isang beses lamang."
+        "message": "Pagkatapos i-install at patakbuhin ang extension, inirerekomendang isara ang lahat ng lumang tab sa YouTube at buksan muli ang mga ito. Ang mga hakbang na ito ay dapat lamang gawin nang isang beses."
     },
     "card_text_3": {
-        "message": "Ang mga pamamaraan sa paghahanap sa advertising ay hindi lumalabag sa mga patakaran sa YouTube."
+        "message": "Ang mga paraan ng pag-block ng ad ay hindi lumalabag sa mga patakaran ng YouTube."
     }
 }

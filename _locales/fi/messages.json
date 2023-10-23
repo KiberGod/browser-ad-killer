@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "todistus"
+        "message": "Viite"
     },
     "card_title_2": {
-        "message": "Ensimmäinen käynnistys"
+        "message": "Ensimmäinen aloitus"
     },
     "card_text_1": {
-        "message": "Tunnistaa ja tuhoaa YouTube.YouTube -palvelut eivät estä laajennusta.Nauttia :)"
+        "message": "Tunnistaa ja estää automaattisesti YouTube-mainokset. YouTube-palvelut eivät estä laajennusta. Nauttia :)"
     },
     "card_text_2": {
-        "message": "Laajennuksen asentamisen ja käynnistämisen jälkeen on suositeltavaa sulkea kaikki vanhat YouTube -välilehdet ja avata ne uudelleen.Nämä toimet tulisi suorittaa vain kerran."
+        "message": "Laajennuksen asentamisen ja suorittamisen jälkeen on suositeltavaa sulkea kaikki vanhat YouTube-välilehdet ja avata ne uudelleen. Nämä vaiheet tulee suorittaa vain kerran."
     },
     "card_text_3": {
-        "message": "Mainontahakumenetelmät eivät riko YouTube -käytäntöjä."
+        "message": "Mainosten estomenetelmät eivät riko YouTuben käytäntöjä."
     }
 }

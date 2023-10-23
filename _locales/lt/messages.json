@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "pažymėjimas"
+        "message": "Nuoroda"
     },
     "card_title_2": {
-        "message": "Pirmasis paleidimas"
+        "message": "Pirmas startas"
     },
     "card_text_1": {
-        "message": "Automatiškai nustato ir sunaikina „YouTube“.„YouTube“ paslaugos neužblokuoja plėtros.Mėgautis :)"
+        "message": "Automatiškai aptinka ir blokuoja „YouTube“ skelbimus. Plėtinio neblokuoja „YouTube“ paslaugos. Mėgautis :)"
     },
     "card_text_2": {
-        "message": "Įdiegus ir paleidus plėtinį, rekomenduojama uždaryti visus senus „YouTube“ skirtukus ir vėl juos atidaryti.Šie veiksmai turėtų būti atlikti tik vieną kartą."
+        "message": "Įdiegus ir paleidus plėtinį, rekomenduojama uždaryti visus senus „YouTube“ skirtukus ir atidaryti juos dar kartą. Šie veiksmai turėtų būti atliekami tik vieną kartą."
     },
     "card_text_3": {
-        "message": "Reklamos paieškos metodai nepažeidžia „YouTube“ politikos."
+        "message": "Skelbimų blokavimo metodai nepažeidžia „YouTube“ politikos."
     }
 }

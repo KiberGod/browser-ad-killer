@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "spričevalo"
+        "message": "Referenca"
     },
     "card_title_2": {
-        "message": "Prva predstavitev"
+        "message": "Prvi začetek"
     },
     "card_text_1": {
-        "message": "Samodejno zazna in uniči youtube.YouTube storitve ne blokirajo razširitve.Uživajte :)"
+        "message": "Samodejno zazna in blokira oglase YouTube. Storitve YouTube ne blokirajo razširitve. uživajte :)"
     },
     "card_text_2": {
-        "message": "Po namestitvi in ​​zagonu razširitve je priporočljivo zapreti vse stare zavihke YouTube in jih znova odpreti.Ta dejanja je treba izvesti samo enkrat."
+        "message": "Po namestitvi in ​​zagonu razširitve je priporočljivo zapreti vse stare zavihke YouTube in jih znova odpreti. Te korake je treba izvesti samo enkrat."
     },
     "card_text_3": {
-        "message": "Načini iskanja oglaševanja ne kršijo politik YouTube."
+        "message": "Metode blokiranja oglasov ne kršijo pravilnikov YouTuba."
     }
 }

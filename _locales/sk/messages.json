@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "osvedčenie"
+        "message": "Odkaz"
     },
     "card_title_2": {
-        "message": "Prvé spustenie"
+        "message": "Prvý štart"
     },
     "card_text_1": {
-        "message": "Automaticky detekuje a ničí YouTube.Rozšírenie nie je blokované službami YouTube.Užite si to :)"
+        "message": "Automaticky zisťuje a blokuje reklamy YouTube. Rozšírenie nie je blokované službami YouTube. Užite si to :)"
     },
     "card_text_2": {
-        "message": "Po inštalácii a spustení rozšírenia sa odporúča zatvoriť všetky staré karty YouTube a znova ich otvoriť.Tieto akcie by sa mali vykonávať iba raz."
+        "message": "Po nainštalovaní a spustení rozšírenia sa odporúča zatvoriť všetky staré karty YouTube a znova ich otvoriť. Tieto kroky by sa mali vykonať iba raz."
     },
     "card_text_3": {
-        "message": "Metódy vyhľadávania reklamy neporušujú pravidlá YouTube."
+        "message": "Metódy blokovania reklám neporušujú pravidlá služby YouTube."
     }
 }

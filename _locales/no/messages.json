@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "sertifikat"
+        "message": "Henvisning"
     },
     "card_title_2": {
         "message": "Den første lanseringen"
     },
     "card_text_1": {
-        "message": "Oppdager og ødelegger YouTube automatisk.Utvidelsen er ikke blokkert av YouTube -tjenester.Nyt :)"
+        "message": "Oppdager og blokkerer YouTube-annonser automatisk. Utvidelsen er ikke blokkert av YouTube-tjenester. Nyt :)"
     },
     "card_text_2": {
-        "message": "Etter å ha installert og lansert utvidelsen, anbefales det å lukke alle de gamle YouTube -fanene og åpne dem igjen.Disse handlingene skal bare utføres en gang."
+        "message": "Etter å ha installert og kjørt utvidelsen, anbefales det å lukke alle gamle YouTube-faner og åpne dem igjen. Disse trinnene skal bare utføres én gang."
     },
     "card_text_3": {
-        "message": "Reklame søkemetoder bryter ikke YouTube -retningslinjene."
+        "message": "Annonseblokkeringsmetoder bryter ikke YouTubes retningslinjer."
     }
 }

@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "bizonyítvány"
+        "message": "Referencia"
     },
     "card_title_2": {
-        "message": "Az első indítás"
+        "message": "Első indítás"
     },
     "card_text_1": {
-        "message": "Automatikusan felismeri és elpusztítja a YouTube -ot.A kiterjesztést a YouTube szolgáltatásai nem blokkolják.Élvezd :)"
+        "message": "Automatikusan észleli és blokkolja a YouTube-hirdetéseket. A bővítményt nem blokkolják a YouTube-szolgáltatások. Élvezd :)"
     },
     "card_text_2": {
-        "message": "A kiterjesztés telepítése és elindítása után ajánlott bezárni az összes régi YouTube fület, és újra megnyitni őket.Ezeket a műveleteket csak egyszer szabad végrehajtani."
+        "message": "A bővítmény telepítése és futtatása után ajánlatos bezárni az összes régi YouTube-lapot, majd újra megnyitni. Ezeket a lépéseket csak egyszer szabad végrehajtani."
     },
     "card_text_3": {
-        "message": "A hirdetési keresési módszerek nem sértik a YouTube -politikákat."
+        "message": "A hirdetésblokkolási módszerek nem sértik a YouTube irányelveit."
     }
 }

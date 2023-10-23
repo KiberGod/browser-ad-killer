@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "sijil"
+        "message": "Rujukan"
     },
     "card_title_2": {
-        "message": "Pelancaran pertama"
+        "message": "Permulaan pertama"
     },
     "card_text_1": {
-        "message": "Secara automatik mengesan dan memusnahkan YouTube.Pelanjutan ini tidak disekat oleh perkhidmatan YouTube.Nikmati :)"
+        "message": "Mengesan dan menyekat iklan YouTube secara automatik. Sambungan tidak disekat oleh perkhidmatan YouTube. selamat mencuba :)"
     },
     "card_text_2": {
-        "message": "Selepas memasang dan melancarkan pelanjutan, disyorkan untuk menutup semua tab YouTube lama dan membukanya lagi.Tindakan ini harus dilakukan sekali sahaja."
+        "message": "Selepas memasang dan menjalankan sambungan, disyorkan untuk menutup semua tab YouTube lama dan membukanya semula. Langkah-langkah ini hendaklah dilakukan sekali sahaja."
     },
     "card_text_3": {
-        "message": "Kaedah carian pengiklanan tidak melanggar dasar YouTube."
+        "message": "Kaedah sekatan iklan tidak melanggar dasar YouTube."
     }
 }

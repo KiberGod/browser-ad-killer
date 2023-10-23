@@ -3,15 +3,15 @@
         "message": "Zertifikat"
     },
     "card_title_2": {
-        "message": "Der erste Start"
+        "message": "Erster Start"
     },
     "card_text_1": {
-        "message": "Erkennt und zerstört YouTube automatisch.Die Erweiterung wird nicht von YouTube -Diensten blockiert.Genießen :)"
+        "message": "Erkennt und blockiert automatisch YouTube-Anzeigen. Die Erweiterung wird nicht von YouTube-Diensten blockiert. Genießen :)"
     },
     "card_text_2": {
-        "message": "Nach dem Installieren und Starten der Erweiterung wird empfohlen, alle alten YouTube -Registerkarten zu schließen und sie erneut zu öffnen.Diese Aktionen sollten nur einmal ausgeführt werden."
+        "message": "Nach der Installation und Ausführung der Erweiterung empfiehlt es sich, alle alten YouTube-Tabs zu schließen und erneut zu öffnen. Diese Schritte sollten nur einmal durchgeführt werden."
     },
     "card_text_3": {
-        "message": "Werbe -Suchmethoden verstoßen nicht die YouTube -Richtlinien."
+        "message": "Methoden zum Blockieren von Werbung verstoßen nicht gegen die YouTube-Richtlinien."
     }
 }

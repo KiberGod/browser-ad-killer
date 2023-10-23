@@ -3,15 +3,15 @@
         "message": "证书"
     },
     "card_title_2": {
-        "message": "第一个发布"
+        "message": "第一次开始"
     },
     "card_text_1": {
-        "message": "自动检测并破坏YouTube。YouTube服务不会阻止扩展名。享受 ：）"
+        "message": "自动检测并阻止 YouTube 广告。 YouTube 服务不会阻止该扩展程序。享受 ：）"
     },
     "card_text_2": {
-        "message": "安装和启动扩展程序后，建议关闭所有旧的YouTube选项卡，然后再次打开它们。这些动作应仅执行一次。"
+        "message": "安装并运行扩展程序后，建议关闭所有旧的 YouTube 选项卡并再次打开它们。这些步骤只能执行一次。"
     },
     "card_text_3": {
-        "message": "广告搜索方法不违反YouTube政策。"
+        "message": "广告拦截方法不违反 YouTube 政策。"
     }
 }

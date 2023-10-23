@@ -6,12 +6,12 @@
         "message": "Le premier lancement"
     },
     "card_text_1": {
-        "message": "Détecte et détruit automatiquement YouTube.L'extension n'est pas bloquée par les services YouTube.Apprécier :)"
+        "message": "Détecte et bloque automatiquement les publicités YouTube. L'extension n'est pas bloquée par les services YouTube. Apprécier :)"
     },
     "card_text_2": {
-        "message": "Après avoir installé et lancé l'extension, il est recommandé de fermer tous les anciens onglets YouTube et de les ouvrir à nouveau.Ces actions ne doivent être effectuées qu'une seule fois."
+        "message": "Après avoir installé et exécuté l'extension, il est recommandé de fermer tous les anciens onglets YouTube et de les rouvrir. Ces étapes ne doivent être effectuées qu'une seule fois."
     },
     "card_text_3": {
-        "message": "Les méthodes de recherche publicitaire ne violent pas les politiques YouTube."
+        "message": "Les méthodes de blocage des publicités ne violent pas les politiques de YouTube."
     }
 }

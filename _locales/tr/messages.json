@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "sertifika"
+        "message": "Referans"
     },
     "card_title_2": {
         "message": "İlk lansman"
     },
     "card_text_1": {
-        "message": "YouTube'u otomatik olarak algılar ve yok eder.Uzantı YouTube hizmetleri tarafından engellenmez.Eğlence :)"
+        "message": "YouTube reklamlarını otomatik olarak algılar ve engeller. Uzantı YouTube hizmetleri tarafından engellenmiyor. Eğlence :)"
     },
     "card_text_2": {
-        "message": "Uzantıyı yükledikten ve başlattıktan sonra, tüm eski YouTube sekmelerini kapatmanız ve tekrar açmanız önerilir.Bu eylemler yalnızca bir kez yapılmalıdır."
+        "message": "Uzantıyı kurup çalıştırdıktan sonra tüm eski YouTube sekmelerini kapatıp tekrar açmanız önerilir. Bu adımlar yalnızca bir kez gerçekleştirilmelidir."
     },
     "card_text_3": {
-        "message": "Reklam arama yöntemleri YouTube politikalarını ihlal etmez."
+        "message": "Reklam engelleme yöntemleri YouTube politikalarını ihlal etmez."
     }
 }

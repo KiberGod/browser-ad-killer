@@ -6,12 +6,12 @@
         "message": "Ra mắt đầu tiên"
     },
     "card_text_1": {
-        "message": "Tự động phát hiện và phá hủy YouTube.Phần mở rộng không bị chặn bởi các dịch vụ YouTube.Thưởng thức :)"
+        "message": "Tự động phát hiện và chặn quảng cáo YouTube. Tiện ích mở rộng không bị chặn bởi các dịch vụ YouTube. Thưởng thức :)"
     },
     "card_text_2": {
-        "message": "Sau khi cài đặt và khởi chạy phần mở rộng, nên đóng tất cả các tab YouTube cũ và mở chúng lại.Những hành động này chỉ nên được thực hiện một lần."
+        "message": "Sau khi cài đặt và chạy tiện ích mở rộng, bạn nên đóng tất cả các tab YouTube cũ và mở lại. Các bước này chỉ nên được thực hiện một lần."
     },
     "card_text_3": {
-        "message": "Phương pháp tìm kiếm quảng cáo không vi phạm chính sách YouTube."
+        "message": "Các phương pháp chặn quảng cáo không vi phạm chính sách của YouTube."
     }
 }

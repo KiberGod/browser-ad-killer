@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "certyfikat"
+        "message": "Odniesienie"
     },
     "card_title_2": {
-        "message": "Pierwsza premiera"
+        "message": "Pierwszy start"
     },
     "card_text_1": {
-        "message": "Automatycznie wykrywa i niszczy YouTube.Rozszerzenie nie jest zablokowane przez usługi YouTube.Cieszyć się :)"
+        "message": "Automatycznie wykrywa i blokuje reklamy YouTube. Rozszerzenie nie jest blokowane przez usługi YouTube. Cieszyć się :)"
     },
     "card_text_2": {
-        "message": "Po zainstalowaniu i uruchomieniu rozszerzenia zaleca się zamknięcie wszystkich starych zakładek YouTube i otwieranie ich ponownie.Działania te powinny być wykonywane tylko raz."
+        "message": "Po zainstalowaniu i uruchomieniu rozszerzenia zaleca się zamknięcie wszystkich starych kart YouTube i otwarcie ich ponownie. Czynności te należy wykonać tylko raz."
     },
     "card_text_3": {
-        "message": "Metody wyszukiwania reklamowego nie naruszają zasad YouTube."
+        "message": "Metody blokowania reklam nie naruszają zasad YouTube."
     }
 }

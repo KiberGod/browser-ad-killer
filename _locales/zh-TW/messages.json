@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "證書"
+        "message": "參考"
     },
     "card_title_2": {
-        "message": "第一個發布"
+        "message": "第一次開始"
     },
     "card_text_1": {
-        "message": "自動檢測並破壞YouTube。YouTube服務不會阻止擴展名。享受 ：）"
+        "message": "自動偵測並阻止 YouTube 廣告。 YouTube 服務不會阻止該擴充功能。享受 ：）"
     },
     "card_text_2": {
-        "message": "安裝和啟動擴展程序後，建議關閉所有舊的YouTube選項卡，然後再次打開它們。這些動作應僅執行一次。"
+        "message": "安裝並執行擴充功能後，建議關閉所有舊的 YouTube 標籤並再次開啟它們。這些步驟只能執行一次。"
     },
     "card_text_3": {
-        "message": "廣告搜索方法不違反YouTube政策。"
+        "message": "廣告攔截方法不違反 YouTube 政策。"
     }
 }

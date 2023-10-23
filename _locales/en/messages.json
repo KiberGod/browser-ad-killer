@@ -1,17 +1,17 @@
 {
     "card_title_1": {
-        "message": "certificate"
+        "message": "Reference"
     },
     "card_title_2": {
-        "message": "The first launch"
+        "message": "First start"
     },
     "card_text_1": {
-        "message": "Automatically detects and destroys YouTube.The extension is not blocked by youtube services.Enjoy :)"
+        "message": "Automatically detects and blocks YouTube ads. The extension is not blocked by YouTube services. Enjoy :)"
     },
     "card_text_2": {
-        "message": "After installing and launching the extension, it is recommended to close all the old YouTube tabs and open them again.These actions should be performed only once."
+        "message": "After installing and running the extension, it is recommended to close all old YouTube tabs and open them again. These steps should only be performed once."
     },
     "card_text_3": {
-        "message": "Advertising search methods do not violate YouTube policies."
+        "message": "Ad blocking methods do not violate YouTube policies."
     }
 }

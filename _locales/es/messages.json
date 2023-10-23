@@ -6,12 +6,12 @@
         "message": "El primer lanzamiento"
     },
     "card_text_1": {
-        "message": "Detecta y destruye automáticamente YouTube.La extensión no está bloqueada por YouTube Services.Disfrutar :)"
+        "message": "Detecta y bloquea automáticamente los anuncios de YouTube. La extensión no está bloqueada por los servicios de YouTube. Disfrutar :)"
     },
     "card_text_2": {
-        "message": "Después de instalar y iniciar la extensión, se recomienda cerrar todas las pestañas de YouTube antiguas y abrirlas nuevamente.Estas acciones deben realizarse solo una vez."
+        "message": "Después de instalar y ejecutar la extensión, se recomienda cerrar todas las pestañas antiguas de YouTube y abrirlas nuevamente. Estos pasos sólo deben realizarse una vez."
     },
     "card_text_3": {
-        "message": "Los métodos de búsqueda publicitaria no violan las políticas de YouTube."
+        "message": "Los métodos de bloqueo de anuncios no violan las políticas de YouTube."
     }
 }
