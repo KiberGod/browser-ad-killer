@@ -9,7 +9,7 @@
 ---
 YouAd Killer is a browser extension that automatically detects and blocks ads on YouTube.
 
-[The extension page in the Chrome store](https://chrome.google.com/webstore/detail/youad-killer/keamieddlaimpafnbcmoiocaehfaghmi).
+[The extension page in the Chrome store](https://chrome.google.com/webstore/detail/youad-killer/kdomclcikdoajglommbmgkbilfnannao).
 
 <br>
 <h3>Installation and first launch</h3>

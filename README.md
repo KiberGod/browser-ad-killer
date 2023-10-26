@@ -9,7 +9,7 @@
 ---
 YouAd Killer - це розширення для браузера, яке автоматично знаходить та блокує рекламу на YouTube.
 
-[Сторінка розширення у Chrome-магазині](https://chrome.google.com/webstore/detail/youad-killer/keamieddlaimpafnbcmoiocaehfaghmi).
+[Сторінка розширення у Chrome-магазині](https://chrome.google.com/webstore/detail/youad-killer/kdomclcikdoajglommbmgkbilfnannao).
 
 <br>
 <h3>Інсталяція та перший запуск</h3>
