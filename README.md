@@ -1,6 +1,6 @@
 <img src="https://github.com/KiberGod/youtube-ad-killer/blob/main/images/icon128.png" align="left" width="128">
 <h1>YouAd Killer</h1>
-<span>v.2.2</span>
+<span>v.2.3</span>
 <br>
 <br>
 <br>
