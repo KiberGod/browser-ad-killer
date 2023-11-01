@@ -96,7 +96,7 @@ The only drawback is that the extension blocks ads using two methods with "surgi
 <h3>Support and compatibility</h3>
 
 ---
-The current version of the extension (2.2) is only supported and compatible with Chromium-based browsers.
+The current version of the extension (2.3) is only supported and compatible with Chromium-based browsers.
 
 The extension is localized in 52 languages:
 * Ukrainian
