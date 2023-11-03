@@ -1,8 +1,8 @@
 // Інтервал, через який відбуваєся повторення пошуку реклами
 const SECONDS_INTERVAL = 0.5;
 
-// Приховання блоку реклами, що розташований серед списку відеороликів (праворуч)
-function hideAdInVideoList() {
+// Приховання блоків статичної реклами по всьому YouTube
+function hideStaticAd() {
   document.querySelectorAll("ytd-ad-slot-renderer").forEach((adSlot) => {
     adSlot.remove();
   });
@@ -18,20 +18,18 @@ function hideRightAdBanner() {
 
 // Прослуховувач реклами на YouTube
 function adDetection() {
-  if (window.location.href.includes("watch?v=")) {
-    hideAdInVideoList();
-    if(document.querySelector('.ytp-ad-player-overlay')) {  // Зараз показують рекламу ?
-      //console.log("Зараз показують рекламу")
-      const skipButton = document.querySelector("button.ytp-ad-skip-button");
+  hideStaticAd();
+  if(document.querySelector('.ytp-ad-player-overlay')) {  // Зараз показують рекламу ?
+    //console.log("Зараз показують рекламу")
+    const skipButton = document.querySelector("button.ytp-ad-skip-button");
 
-      if (skipButton) {
-        skipButton.click();
-      } else {
-        var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
-        video.currentTime = video.duration;
-      }
-      hideRightAdBanner();
+    if (skipButton) {
+      skipButton.click();
+    } else {
+      var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
+      video.currentTime = video.duration;
     }
+    hideRightAdBanner();
   }
 }
 
