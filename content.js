@@ -22,8 +22,11 @@ function adDetection() {
   if(document.querySelector('.ytp-ad-player-overlay')) {  // Зараз показують рекламу ?
     //console.log("Зараз показують рекламу")
     const skipButton = document.querySelector("button.ytp-ad-skip-button");
+    const skipButtonModern = document.querySelector("button.ytp-ad-skip-button-modern")
 
-    if (skipButton) {
+    if (skipButtonModern) {
+      skipButtonModern.click();
+    } else if (skipButton) {
       skipButton.click();
     } else {
       var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
