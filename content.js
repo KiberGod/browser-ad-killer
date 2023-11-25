@@ -9,10 +9,10 @@ function hideStaticAd() {
 }
 
 // Приховання блоку реклами (той що картинка, праворуч)
-function hideRightAdBanner() {
-  const adBanner = document.getElementById("player-ads");
+function hideRightAdBanner(id) {
+  const adBanner = document.getElementById(id);
   if (adBanner) {
-    adBanner.remove(); 
+    adBanner.remove();
   }
 }
 
@@ -32,8 +32,9 @@ function adDetection() {
       var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
       video.currentTime = video.duration;
     }
-    hideRightAdBanner();
   }
+  hideRightAdBanner("player-ads");
+  hideRightAdBanner("panels");
 }
 
 // Встановлення слухача реклами
