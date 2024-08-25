@@ -21,7 +21,7 @@ function adDetection() {
   hideStaticAd();
   if(document.querySelector('.ytp-ad-player-overlay') || document.querySelector('.ytp-ad-player-overlay-layout')) {  // Зараз показують рекламу ?
     //console.log("Зараз показують рекламу")
-    const skipButton = document.querySelector("button.ytp-ad-skip-button");
+    /*const skipButton = document.querySelector("button.ytp-ad-skip-button");
     const skipButton2 = document.querySelector("button.ytp-skip-ad-button");
     const skipButtonModern = document.querySelector("button.ytp-ad-skip-button-modern")
 
@@ -34,7 +34,9 @@ function adDetection() {
     } else {
       var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
       video.currentTime = video.duration;
-    }
+    }*/
+    var video = document.querySelectorAll("video.video-stream.html5-main-video")[0];
+    video.currentTime = video.duration;
   } 
   hideRightAdBanner("player-ads");
   hideRightAdBanner("panels");
